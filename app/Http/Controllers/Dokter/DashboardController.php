@@ -19,17 +19,17 @@ class DashboardController extends Controller
                             ->with('patient.user')
                             ->orderBy('queue_number', 'asc')
                             ->get();
-        
+
         // Hitung jumlah pasien yang menunggu
         $waitingPatients = $bookings->where('status', 'confirmed')->count();
-        
+
         // Hitung jumlah pasien yang sudah selesai
         $completedPatients = $bookings->where('status', 'completed')->count();
 
         // Kirim semua data ke view
         return view('dokter.dashboard', compact(
-            'bookings', 
-            'waitingPatients', 
+            'bookings',
+            'waitingPatients',
             'completedPatients'
         ));
     }
