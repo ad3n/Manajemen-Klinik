@@ -70,7 +70,7 @@ RUN php artisan config:cache || true && \
 
 # Permission
 RUN mkdir -p storage/logs bootstrap/cache && \
-    chown -R www-data:www-data /var/www/html && \
+    chown -R www-data:www-data storage/logs bootstrap/cache && \
     chmod -R 775 storage bootstrap/cache
 
 # Nginx config
