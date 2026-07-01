@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Klinik Sehat') }} - Solusi Kesehatan Anda</title>
+    <title>{{ config('app.name', 'Klinik Deanka') }} - Solusi Kesehatan Anda</title>
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -17,8 +17,8 @@
     <header class="bg-white dark:bg-gray-900 shadow-sm fixed w-full z-50">
         <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
             <a href="#" class="flex items-center">
-                <img src="{{ asset('images/logo.png') }}" alt="Klinik Sehat" class="h-20 w-auto">
-                <span class="ml-3 text-xl font-bold text-gray-800 dark:text-white">Klinik Sehat</span>
+                <img src="{{ asset('images/logo.png') }}" alt="Klinik Deanka" class="h-20 w-auto">
+                <span class="ml-3 text-xl font-bold text-gray-800 dark:text-white">Klinik Deanka</span>
             </a>
             <div class="space-x-4">
                 @if (Route::has('login'))
@@ -44,7 +44,7 @@
 
         <!-- Konten teks di tengah -->
         <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
-            <h1 class="text-4xl md:text-5xl font-bold text-white">Selamat Datang di Klinik Sehat</h1>
+            <h1 class="text-4xl md:text-5xl font-bold text-white">Selamat Datang di Klinik Deanka</h1>
             <p class="mt-4 text-lg md:text-xl text-gray-200">
                 Solusi kesehatan terpercaya untuk Anda dan keluarga. Buat janji temu dengan dokter kami secara mudah dan cepat.
             </p>
@@ -79,8 +79,8 @@
     <!-- Tentang Kami Section -->
     <section class="bg-gray-100 dark:bg-gray-900 py-16">
         <div class="max-w-4xl mx-auto text-center px-6">
-            <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Tentang Klinik Sehat</h2>
-            <p class="mt-4 text-gray-600 dark:text-gray-400">Klinik Sehat hadir untuk memberikan layanan kesehatan terbaik dengan fasilitas modern dan tenaga medis profesional. Kami berkomitmen memberikan kenyamanan dan keamanan bagi pasien kami.</p>
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Tentang Klinik Deanka</h2>
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Klinik Deanka hadir untuk memberikan layanan kesehatan terbaik dengan fasilitas modern dan tenaga medis profesional. Kami berkomitmen memberikan kenyamanan dan keamanan bagi pasien kami.</p>
         </div>
     </section>
 
@@ -133,14 +133,14 @@
     <section class="bg-white dark:bg-gray-800 py-16">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Hubungi Kami</h2>
-            <p class="mt-4 text-gray-600 dark:text-gray-400">Email: info@kliniksehat.com | Telp: (021) 123-4567 | Alamat: Jl. Sehat No.1, Jakarta</p>
+            <p class="mt-4 text-gray-600 dark:text-gray-400">Email: info@klinikdeanka.com | Alamat: Jl. Wonosari RT. 03 RW. 004 Ds. Sambeng No.1, Bojonegoro</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-gray-100 dark:bg-gray-900 py-6">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-center md:text-left text-gray-500 dark:text-gray-400">
-            <div>&copy; {{ date('Y') }} Klinik Sehat. All Rights Reserved.</div>
+            <div>&copy; {{ date('Y') }} Klinik Deanka. All Rights Reserved.</div>
             <div class="mt-2 md:mt-0">Laravel v{{ Illuminate\Foundation\Application::VERSION }} | PHP v{{ PHP_VERSION }}</div>
         </div>
     </footer>

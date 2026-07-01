@@ -1,19 +1,19 @@
 <nav x-data="{ open: false }" class="bg-gradient-to-r from-sky-500 via-teal-500 to-emerald-500 shadow-lg">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
-            
+
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="{{ route('dashboard') }}" class="flex items-center space-x-2">
                     <x-application-logo class="block h-16 w-auto text-white" />
-                    <span class="text-white font-bold text-lg">Klinik Sehat</span>
+                    <span class="text-white font-bold text-lg">Klinik Deanka</span>
                 </a>
             </div>
 
             <!-- Desktop Menu -->
             <div class="hidden sm:flex sm:items-center sm:space-x-6">
-                <x-nav-link :href="route('dashboard')" 
-                    :active="request()->routeIs('dashboard')" 
+                <x-nav-link :href="route('dashboard')"
+                    :active="request()->routeIs('dashboard')"
                     class="text-white hover:text-yellow-200 transition">
                     {{ __('Dashboard') }}
 
@@ -100,7 +100,7 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            
+
             @if(Auth::user()->role === \App\Enums\UserRole::ADMIN)
                 <x-responsive-nav-link :href="route('admin.polis.index')">{{ __('Manajemen Poli') }}</x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('admin.doctors.index')">{{ __('Manajemen Dokter') }}</x-responsive-nav-link>

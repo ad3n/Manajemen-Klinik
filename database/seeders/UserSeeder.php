@@ -57,7 +57,7 @@ class UserSeeder extends Seeder
             'nik' => '3270010020030004',   // Contoh NIK
             'date_of_birth' => '2000-05-15', // Contoh tanggal lahir
             'phone_number' => '081234567890', // Contoh nomor HP
-            'address' => 'Jl. Merdeka No. 10, Jakarta', // Contoh alamat
+            'address' => 'Jl. Wonosari RT. 03 RW. 004 Desa Sambeng, Bojonegoro', // Contoh alamat
         ]);
     }
 }

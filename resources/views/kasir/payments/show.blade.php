@@ -24,9 +24,10 @@
         <div class="bg-white p-8 border rounded-lg shadow-sm">
             <div class="flex justify-between items-start mb-6">
                 <div>
-                    <h1 class="text-2xl font-bold text-gray-800">Klinik Sehat</h1>
-                    <p class="text-gray-500">Jl. Pembangunan No. 123, Jakarta</p>
-                    <p class="text-gray-500">Telp: (021) 123-4567</p>
+                    <h1 class="text-2xl font-bold text-gray-800">KLINIK DEANKA</h1>
+                    <p class="text-gray-500">Jl. Wonosari RT. 03 RW. 004 Desa Sambeng</p>
+                    <p class="text-gray-500">Kecamatan Kasiman Kabupaten Bojonegoro</p>
+                    <p class="text-gray-500">Telp: 0812-2779-2020</p>
                 </div>
                 <div class="text-right">
                     <h2 class="text-xl font-semibold text-gray-700">KWITANSI</h2>
